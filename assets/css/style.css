@@ -4,11 +4,37 @@
     box-sizing: border-box;
 }
 
+/* general styles and utility classes */
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* styles for the header */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -42,6 +68,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* styles for the footer */
 footer {
     background: #fce138;
     width: 100%;
@@ -69,7 +96,7 @@ section {
     padding: 60px;
 }
 
-/* hero/jumbotron styles START */
+/* styles for the hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -119,9 +146,8 @@ section {
     padding:10px 20px;
     font-size: 16px;
 }
-/* hero/jumbotron styles END */
 
-/* "What We Do" styles START */
+/* styles for the "What We Do" section */
 .intro {
     text-align: center;
 }
@@ -133,9 +159,8 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
-/* "What We Do" styles END */
 
-/* "What You Do" styles START */
+/* styles for the "What You Do" section */
 .steps {
     text-align: center;
     background: #fce138;
@@ -164,9 +189,8 @@ section {
 .steps span {
     font-size: 38px;
 }
-/* "What You Do" styles END */
 
-/* "Meet the Trainers" styles START */
+/* styles for the "Meet the Trainers" section */
 .trainers {
     text-align: center;
 }
@@ -205,9 +229,8 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-/* "Meet the Trainers" styles END */
 
-/* "Reach Out" styles START */
+/* styles for the "Reach Out" section */
 .contact {
     text-align: center;
     background: #024e76;
@@ -246,30 +269,3 @@ section {
 .contact-info a {
     color: #fce138;
 }
-/* "Reach Out" styles END */
-
-/* UTILITY CLASSES START */
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-/* UTILITY CLASSES END */
