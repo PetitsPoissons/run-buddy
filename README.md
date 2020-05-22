@@ -12,3 +12,5 @@ https://petitspoissons.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Sandrine Poissonnet
+
+### ©️2019 Run Buddy, Inc
