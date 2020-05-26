@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +18,7 @@ body {
 
 .section-title {
     font-size: 48px;
-    color: #024e76;
+    color: var(--secondary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
@@ -21,11 +27,11 @@ body {
 }
 
 .primary-border {
-    border-color: #fce138;
+    border-color: var(--primary-color);
 }
 
 .secondary-border {
-    border-color: #39a6b2;
+    border-color: var(--tertiary-color);
 }
 
 .flex-row {
@@ -35,7 +41,7 @@ body {
 /* styles for the header */
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -83,7 +89,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: #fce138;
-    color: #024e76;
+    color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
 }
